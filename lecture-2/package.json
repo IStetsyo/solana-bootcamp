@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "esrun generate-keypair.ts",
-    "load": "esrun load-keypair.ts"
+    "check": "esrun check-balance.ts",
+    "send": "esrun send-solana.ts"
   },
   "keywords": [],
   "author": "",
